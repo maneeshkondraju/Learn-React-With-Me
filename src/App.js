@@ -1,15 +1,13 @@
- import Message from './Components/Message'
- import {Greet} from './Components/Greet'
+// import Home from './Components/Home'
+// import Title from './Components/Title'
 
-function APP(){
-  return(
-   <>
-   <h1>hello</h1>
-   <p>this is para</p>
-   <Message/>
-   
-   </>
-    
-)
-}
-export default APP;
+// function APP(){
+//   return(
+//     <>
+//     <h1>App Comp</h1>
+//     <Home/>
+//     <Title/>
+//     </>
+//   )
+// }
+// export default APP
