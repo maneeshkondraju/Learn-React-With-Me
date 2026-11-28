@@ -1,14 +1,16 @@
-import Fruits from './Components/Fruits'
-import Products from './Components/Products';
-import Users from './Components/Users'
-import Display from './Components/Display'
+import Button from "./Components/Button";
+import Product from './Components/Product'
+
 
 
 function App(){
   return(
     <>
-    <Users/>
-    <Display/>
+    <h1>Children Props</h1>
+    <Button color ='warning'> view more</Button>
+    <section className="container-fluid mt-3" >
+      <Product/>
+    </section>
     </>
   )
 }
